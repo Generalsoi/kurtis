@@ -1,0 +1,23 @@
+.intro-section{
+    padding: 2% 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.intro-h1{
+    font-size: 4.625rem;
+    font-weight: 800;
+    line-height: 50px;
+}
+
+.intro-p{
+    font-size: 1.5rem;
+    font-weight: normal;
+    line-height: 10px;
+}
+
+.download-p{
+    font-size: 0.875rem;
+    font-weight: 700;
+}

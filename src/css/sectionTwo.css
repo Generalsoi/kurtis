@@ -1,0 +1,16 @@
+.section-two{
+    padding: 1% 5%;
+    background-color: #e3d9de;
+}
+
+.sectionTwoH2{
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+.sectiontwo-grid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
