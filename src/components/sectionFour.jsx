@@ -1,42 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
 import KurtisLogo from "../images/kurtisclassroomLogo.png";
+import "../css/sectionFour.css";
+import RubiksCube from "../images/rubikscube.svg";
 
 const SectionFour = () => {
-  const styles = {
-    background: "#FFC43B",
-    padding: "15% 5%",
-    textAlign: "center",
-  };
+  const [view, setView] = useState(0);
   return (
-    <div style={styles}>
-      <img src={KurtisLogo} alt="kurtislogo" /> <br />
-      <input
-        style={{
-          margin: "4rem auto",
-          width: "23.25rem",
-          height: "3rem",
-          textAlign: "center",
-          borderRadius: "30px",
-          fontSize: "1.5rem",
-          fontWeight: "700",
-          fontFamily: "Montserrat",
-          color: "#979797",
-        }}
-        placeholder="Write the code here"
-      />
-      <br />
-      <a
-        href="/"
-        style={{
-          fontFamily: "Montserrat",
-          fontSize: "1.25rem",
-          fontWeight: "400",
-          textDecoration: "none",
-          color: "#979797",
-        }}
-      >
-        Or try with 1234
-      </a>
+    <div className="section-four" onClick={() => setView(!view)}>
+      {view ? (
+        <div>
+          <img src={KurtisLogo} alt="kurtislogo" /> <br />
+          <input placeholder="Write the code here" />
+          <br />
+          <a href="/">Or try with 1234</a>
+        </div>
+      ) : (
+        <div className="rubiks-cube">
+          <img src={RubiksCube} alt="rubiks-cube" />
+        </div>
+      )}
     </div>
   );
 };

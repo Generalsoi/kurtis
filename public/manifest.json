@@ -3,17 +3,17 @@
   "name": "Create React App Sample",
   "icons": [
     {
-      "src": "../src/images/kurtis-logo.png",
+      "src": "../src/images/favicon.png",
       "sizes": "image/png",
       "type": "192x192"
     },
     {
-      "src": "../src/images/kurtis-logo.png",
+      "src": "../src/images/favicon.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "../src/images/kurtis-logo.png",
+      "src": "../src/images/favicon.png",
       "type": "image/png",
       "sizes": "512x512"
     }
