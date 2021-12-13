@@ -1,0 +1,41 @@
+.section-five {
+    padding: 5%;
+}
+
+.section-five h3{
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.grid-one{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 50px;
+    margin-top: 2rem;
+}
+
+.grid-one div{
+    padding-right: 10rem;
+}
+
+.grid-one h5, .grid-two h5{
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+.grid-one p, .grid-two p{
+    font-size: 1.5rem;
+}
+
+.grid-one img, {
+    width: 40%;
+}
+
+.grid-two{
+    display: flex;
+    margin-top: 2rem;
+    justify-content: center;
+}
+
