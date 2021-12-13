@@ -26,10 +26,10 @@
 }
 
 .grid-one p, .grid-two p{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
-.grid-one img, {
+.grid-one img {
     width: 40%;
 }
 
